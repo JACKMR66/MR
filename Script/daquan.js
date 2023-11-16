@@ -46,7 +46,7 @@
 
 [mitm] 
 
-hostname = *.snowing.ren, *.beibeini3.cn, *.pili01a.net, *.bhhcdou
+hostname = *.snowing.ren, *.beibeini3.cn, *.pili01a.net, *.bhhcdou.cn
 
 
 *******************************/
