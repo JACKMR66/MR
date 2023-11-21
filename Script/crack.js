@@ -1,18 +1,3 @@
-/******************************************
- * @name 爽翻
- * @channel https://t.me/yqc_123
- * @feedback https://t.me/yqc_777
- * @update 20231101
- * @version 1.0.0
-******************************************/
-[rewrite_local]
-^https?:\/\/sadaslvcxjiaa\.vip\/front\/media\/(getMediaById|listShortVideoRandom) url script-request-header https://raw.githubusercontent.com/JACKMR66/MR/main/Script/shuangfan.js
-^https?:\/\/sadaslvcxjiaa\.vip\/front\/(system\/bannersetting\/userGetBannerSet|cluser\/c\/user\/info\/get) url script-response-body https://raw.githubusercontent.com/JACKMR66/MR/main/Script/shuangfan.js
-
-[mitm]
-hostname = sadaslvcxjiaa.vip
-
-const $ = new Env('爽翻')
 const $ = new Env('爽翻')
 var headers = $request.headers
 getToken()
