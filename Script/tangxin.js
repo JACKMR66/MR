@@ -5,20 +5,6 @@
  * @update 20231116
  * @version 1.0.0
 ******************************************/
-[rewrite_local]
-^https?:\/\/tx.*\.com\/h5\/(user\/info|movie\/(block|search)|system\/info)$ url script-response-body https://raw.githubusercontent.com/JACKMR66/MR/main/Script/tangxin.js
-^https?:\/\/tx.*\.com\/h5\/movie\/detail$ url script-request-body https://raw.githubusercontent.com/JACKMR66/MR/main/Script/tangxin.js
-
-[mitm]
-
-hostname = txh*.com, txk*.com, tx*.com
-/******************************************
- * @name 糖心𝐕𝐋𝐎𝐆
- * @channel https://t.me/yqc_123
- * @feedback https://t.me/yqc_777
- * @update 20231116
- * @version 1.0.0
-******************************************/
 const $ = new Env('糖心𝐕𝐋𝐎𝐆')
 const isRequestBody = $request.body != undefined
 let body = ``
