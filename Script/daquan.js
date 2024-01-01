@@ -39,14 +39,14 @@
 
 [rewrite_local]
 
-^https?:\/\/(120play|10play|h5play)\.(hhclyjz|snowing|bhhcdou)\.(ren|cn)/(videos.|watch|static|upload|watch[0-9]+)\/.*\/.*\.m3u8\?auth_key.*$ url script-request-header https://raw.githubusercontent.com/JACKMR66/MR/main/Script/daquan.js
-^https?://(10play\.bhhcdou\.cn)//(\w+)/\w{32}/\w{32}\.m3u8\? url script-request-header https://raw.githubusercontent.com/JACKMR66/MR/main/Script/daquan.js
-^https?://(120play\.bhhcdou\.cn)//(\w+)/\w{32}/\w{32}\.m3u8\? url script-request-header https://raw.githubusercontent.com/JACKMR66/MR/main/Script/daquan.js
-^https?://(h5play\.bhhcdou\.cn)//(\w+)/\w{32}/\w{32}\.m3u8\? url script-request-header https://raw.githubusercontent.com/JACKMR66/MR/main/Script/daquan.js
+^https?:\/\/(120play|10play|h5play)\.(hhclyjz|snowing|vsmdboa)\.(ren|cn)/(videos.|watch|static|upload|watch[0-9]+)\/.*\/.*\.m3u8\?auth_key.*$ url script-request-header https://raw.githubusercontent.com/JACKMR66/MR/main/Script/daquan.js
+^https?://(10play\.vsmdboa\.cn)//(\w+)/\w{32}/\w{32}\.m3u8\? url script-request-header https://raw.githubusercontent.com/JACKMR66/MR/main/Script/daquan.js
+^https?://(120play\.vsmdboa\.cn)//(\w+)/\w{32}/\w{32}\.m3u8\? url script-request-header https://raw.githubusercontent.com/JACKMR66/MR/main/Script/daquan.js
+^https?://(h5play\.vsmdboa\.cn)//(\w+)/\w{32}/\w{32}\.m3u8\? url script-request-header https://raw.githubusercontent.com/JACKMR66/MR/main/Script/daquan.js
 
 [mitm] 
 
-hostname = *.snowing.ren, *.beibeini3.cn, *.pili01a.net, *.bhhcdou.cn
+hostname = *.snowing.ren, *.beibeini3.cn, *.pili01a.net, *.vsmdboa.cn
 
 
 *******************************/
