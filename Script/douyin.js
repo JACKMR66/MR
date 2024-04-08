@@ -18,7 +18,7 @@
 下载地址: https://d.lg3cdx.net?code=K7J4PS&channel=share
 
 ******************************************
-^https?:\/\/.+\.(qsk0ui|n2p4fa|1vn5cq|h6xgec|6e6b8s).cc\/h5\/app\/api\/(config|user\/info|video\/info|tab\/module) url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/dyin.js
+^https?:\/\/.+\.(qsk0ui|n2p4fa|1vn5cq|h6xgec|6e6b8s).cc\/h5\/app\/api\/(config|user\/info|video\/info|tab\/module) url script-response-body https://raw.githubusercontent.com/JACKMR66/MR/main/Script/douyin.js
 
 hostname = cc.qsk0ui.cc, cc.n2p4fa.cc, cc.1vn5cq.cc, cc.h6xgec.cc, dd.6e6b8s.cc
 ******************************************/
