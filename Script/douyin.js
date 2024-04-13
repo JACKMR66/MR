@@ -14,7 +14,7 @@
 4. 转载脚本请注明来源，欢迎分享，拒绝倒卖，倒卖 🐕 必死 🐎。
 5. 如果任何单位或个人认为此脚本可能涉嫌侵犯其权利，应及时通知并提供身份证明，所有权证明，我们将在收到认证文件确认后删除此脚本。
 6. 所有直接或间接使用、查看此脚本的人均应该仔细阅读此声明, 本人保留随时更改或补充此声明的权利, 一旦您使用或复制了此脚本，即视为您已接受此免责声明。
-7. 欢迎对[本仓库](https://github.com/Yuheng0101/X)Star✅，但请不要 Fork❌。
+7. 欢迎对[本仓库]Star✅，但请不要 Fork❌。
 
 [50 度灰](https://50.aff009.net/)
 
@@ -28,13 +28,13 @@
 
 hostname = *.bmafdxt.com, *.yxlauhm.com, *.psovzwr.com, *.50*pi.com, *.wmq*api*.com, *.tbrapi.org, *.hichatapi.com, *.longyuandingyi.com,*.zihzot.com,*.snowing.ren,*.vzcnqmr.cn,*.xsyldc.com,*.pili01a.net,*.hhclyjz.cn, *.bhhcdou.cn, *.xuxivwx.cn, *.sdtuxyh.cn, *.kngpdsz.cn, *.sugugaj.cn, *.mqqjrv.com, *.gnikvh.com, *.auhvylo.cn, *.hefeixcx.xyz, *.vsmdboa.cn, *.pnowdvc.cn, *.xgfipub.cn, *.guangxu124.cn, *.pvlzxh.cn, *.b0lgw.com, *.avwpyqtl.com, *.uvursx.com, *.bing0010.com, *.mlchve.com, *.qlpwbr.com
 # 91短视频
-^https?:\/\/.*(bmafdxt|yxlauhm|psovzwr|xsyldc).com/pwa.php url script-analyze-echo-response https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/lsp.js
+^https?:\/\/.*(bmafdxt|yxlauhm|psovzwr|xsyldc).com/pwa.php url script-analyze-echo-response https://raw.githubusercontent.com//JACKMR66/MR/main/Script/douyin.js
 # 50度灰
-^https?:\/\/.*50.*pi.com/pwa.php/api/(user/userinfo|MvDetail/(detail|xiao_detail)|home/(getOpenAdsAndVersion|appcenter)|system/getad) url script-response-body https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/lsp.js
+^https?:\/\/.*50.*pi.com/pwa.php/api/(user/userinfo|MvDetail/(detail|xiao_detail)|home/(getOpenAdsAndVersion|appcenter)|system/getad) url script-response-body https://raw.githubusercontent.com//JACKMR66/MR/main/Script/douyin.js
 # 微密圈
-^https?:\/\/.*(wmq.*api\d+).com/pwa.php url script-analyze-echo-response https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/lsp.js
+^https?:\/\/.*(wmq.*api\d+).com/pwa.php url script-analyze-echo-response https://raw.githubusercontent.com//JACKMR66/MR/main/Script/douyin.js
 # 撸先生
-^https?:\/\/.*hichatapi.+\/api\.php$ url script-analyze-echo-response https://raw.githubusercontent.com/Yuheng0101/X/main/Scripts/lsp.js
+^https?:\/\/.*hichatapi.+\/api\.php$ url script-analyze-echo-response https://raw.githubusercontent.com//JACKMR66/MR/main/Script/douyin.js
 # 𝐀𝐋𝐋
 ^(https?:\/\/)(?!long)([^./]+\.)*(longyuandingyi.com|zihzot.com|snowing.ren|vzcnqmr.cn|xsyldc.com|pili01a.net|hhclyjz.cn|bhhcdou.cn|xuxivwx.cn|sdtuxyh.cn|kngpdsz.cn|sugugaj.cn|mqqjrv.com|gnikvh.com|auhvylo.cn|hefeixcx.xyz|vsmdboa.cn|pnowdvc.cn|xgfipub.cn|guangxu124.cn|pvlzxh.cn|b0lgw.com|avwpyqtl.com|uvursx.com|bing0010.com|mlchve.com|qlpwbr.com)(\/.*)? url 302 $1long.$3$4
 
