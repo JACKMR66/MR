@@ -145,7 +145,7 @@
 网站链接：https://p4.gv009.fun
 
 
-*******************************
+
 [rewrite_local]
 
 ^https:\/\/[^\/]*\..*\.cn\/\w+\/[a-z0-9]{32}\/[a-z0-9]{32}\.m3u8(\?.*)?  url script-request-header https://raw.githubusercontent.com/JACKMR66/MR/main/Script/sese.js
@@ -154,7 +154,7 @@
 
 hostname = 120play.*.cn,h5play.*.com,long.*.cn,*.fipxor.cn,*.tuplrf.cn
 
-
+*******************************/
 
 const $ = new Env("GOGOGOGO");
 let url = $request.url,
