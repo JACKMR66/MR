@@ -148,7 +148,7 @@
 
 [rewrite_local]
 
-^https:\/\/[^\/]*\..*\.cn\/\w+\/[a-z0-9]{32}\/[a-z0-9]{32}\.m3u8(\?.*)?  url script-request-header https://raw.githubusercontent.com/JACKMR66/MR/main/Script/sese.js
+^https:\/\/[^\/]*\..*\.cn\/\w+\/[a-z0-9]{32}\/[a-z0-9]{32}\.m3u8(\?.*)? url script-request-header https://raw.githubusercontent.com/JACKMR66/MR/main/Script/Sese.js
 
 [mitm] 
 
