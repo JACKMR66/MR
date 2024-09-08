@@ -1,6 +1,6 @@
 /******************************
 
-脚本功能： 汤头条轻量版——解锁—金币视频—VIP视频
+脚本功能：汤头条轻量版——解锁—金币视频—VIP视频
 网站链接：https://p5.ymvfegagd.net/
 
 
@@ -155,7 +155,6 @@
 hostname = 120play.*.cn,h5play.*.com,long.*.cn,*.fipxor.cn,*.tuplrf.cn
 
 *******************************/
-
 const $ = new Env("GOGOGOGO");
 let url = $request.url,
 headers = $request.headers;
